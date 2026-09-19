@@ -1,0 +1,137 @@
+*{
+    margin:0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: url("../imagenes/fotoportada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-style: oblique;
+}
+
+#titulo{
+    font-size: 6em;
+    color: blueviolet;
+    letter-spacing: 5px;
+    text-shadow: 10px 6px 6px rgb(48, 45, 45);
+}
+
+
+#subtitulo{
+    color:blueviolet;
+    letter-spacing: 5px;
+    text-shadow: 2px 1px 2px rgb(48, 45, 45);
+
+}
+
+
+#bloquetitulos{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -12em;
+    margin-left: 100px;
+
+
+}
+#perrito{
+    background: url("../imagenes/perro1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav{
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(234, 250, 9);
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 5px;
+
+}
+
+.nav-link{
+    margin-right: 100px;
+    margin-left: 100px;
+    display: inline-block;
+    color:coral;
+    font-size: 1.2em;
+    font-style: italic;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(70, 64, 64);
+    
+}
+
+#servicios{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#cajasservicios{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+
+}
+
+.cajas{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin-top: 40px;
+}
+
+#caja1{
+    width: 300px;
+    height: 300px;
+    background: url("../imagenes/perroindiv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    transition: all 1.5s;
+
+}
+
+#caja2{
+    width: 300px;
+    height: 300px;
+    background: url("../imagenes/perrosgrupo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    transition: all 1.5s;
+
+}
+
+#caja1:hover{
+    transform: scale(1.2 , 1.2) rotate(3deg);
+    -webkit-transform: scale(1.2, 1.2) rotate(3deg);
+    -ms-transform: scale(1.2, 1.2) rotate(3deg);
+}
+
+#caja2:hover{
+    transform: scale(1.2 , 1.2) rotate(-3deg);
+    -webkit-transform: scale(1.2, 1.2) rotate(-3deg);
+    -ms-transform: scale(1.2, 1.2) rotate(-3deg);
+
+}
