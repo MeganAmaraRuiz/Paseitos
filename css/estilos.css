@@ -69,16 +69,30 @@ nav{
 
 main{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background-color: rgb(70, 64, 64);
+    padding-bottom: 150px;
+    padding-top: 50px;
     
 }
 
-#servicios{
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(234, 250, 9);
+    padding: 20px;
+    
+
+}
+
+
+
+.servicios{
     font-size: 2em;
     margin-top: 10px;
 }
@@ -133,5 +147,14 @@ main{
     transform: scale(1.2 , 1.2) rotate(-3deg);
     -webkit-transform: scale(1.2, 1.2) rotate(-3deg);
     -ms-transform: scale(1.2, 1.2) rotate(-3deg);
+
+}
+
+#tabla{
+    width: 60vw;
+    background-color: rgb(223, 178, 122);
+    color: black;
+    border-radius: 5px;
+    margin-top: 40px;
 
 }
