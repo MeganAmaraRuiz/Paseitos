@@ -257,7 +257,7 @@ mark{
 
 #tiracarrusel img{
     width: 500px;
-    height: 350px;
+    height: 300px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
