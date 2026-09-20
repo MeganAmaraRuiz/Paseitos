@@ -58,8 +58,8 @@ nav{
 }
 
 .nav-link{
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 70px;
+    margin-left: 70px;
     display: inline-block;
     color:coral;
     font-size: 1.2em;
@@ -81,12 +81,75 @@ main{
 }
 
 
-footer{
+#maingrid{            /*es el main de la pagina de reseñas*/
     width: 100%;
-    height: 100px;
+    height: 85vh;
+    background-color: rgb(70, 64, 64);
+    padding-bottom: 150px;
+    padding-top: 50px;
+
+}
+
+
+#grid{               /*el grid para la pagina de reseñas*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-gap: 2rem;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+
+
+
+.reseñas{      /*los cuadritos de las reseñas*/
+    background-color: rgb(233, 222, 162);
+    font-style: italic;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+
+
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 170px;
     background-color: rgb(234, 250, 9);
-    padding: 20px;
-    
+    justify-content: space-between;
+}
+
+
+
+#contacto{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+
+
+
+#mapa{
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+
+
+#opiniones{     /*subtitulo de la pagina de reseñas*/
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    grid-column: 1/-1;
 
 }
 
@@ -95,6 +158,23 @@ footer{
 .servicios{
     font-size: 2em;
     margin-top: 10px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+
+
+.links{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+
+}
+
+
+mark{
+    background-color: rgb(250, 96, 40);
+
+
 }
 
 #cajasservicios{
