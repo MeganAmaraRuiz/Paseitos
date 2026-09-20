@@ -238,3 +238,39 @@ mark{
     margin-top: 40px;
 
 }
+
+#carrusel{
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#tiracarrusel{
+    display: flex;
+    gap: 10px;
+    width: max-content;
+    animation: desplazar 60s linear infinite;
+}
+
+#tiracarrusel img{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+}
+
+
+@keyframes desplazar {
+    0%{
+        transform: translateX(0);
+    }
+    
+    
+    100%{
+        transform: translateX(-50%);
+    }
+}
