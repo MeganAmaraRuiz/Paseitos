@@ -274,3 +274,9 @@ mark{
         transform: translateX(-50%);
     }
 }
+
+
+.parrafo{
+    width: 60%;
+    margin-top: 20px;
+}
