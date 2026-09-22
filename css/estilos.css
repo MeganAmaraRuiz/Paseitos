@@ -280,3 +280,1155 @@ mark{
     width: 60%;
     margin-top: 20px;
 }
+
+
+/*De aca para abajo empiezan los media querys. Estan hechos con max width en lugar de min porque me resulta mas cómodo*/
+@media (max-width: 3840px){
+    .servicios{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    main{
+        width: 3840px;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        height: 40vh;
+        width: 3840px;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 3840px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        height: 20vh;
+        width: 3840px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bloquetitulos{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: -1px;
+
+    }
+
+    #perrito{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 20px;
+        display: flex;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+   
+    #contacto{
+        font-size: 40px;
+
+
+    }
+    
+    .reseñas{
+        font-size: 20px;
+        width: 400px;
+        height: 400px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 60vh;
+
+    }
+    
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+}
+
+
+@media (max-width: 834px){
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+
+    
+    .servicios{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    main{
+        width: 834px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        width: 834px;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 834px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        width: 834px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #bloquetitulos{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: -1px;
+
+    }
+
+    #perrito{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 15px;
+        display: flex;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+   
+    #contacto{
+        font-size: 20px;
+
+
+    }
+    
+    .reseñas{
+        font-size: 10px;
+        width: 120px;
+        height: 120px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 50vh;
+
+    }
+}
+
+
+@media (max-width: 820px){
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+
+    
+    .servicios{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    main{
+        width: 820px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        width: 820px;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 820px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        width: 820px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #bloquetitulos{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: -1px;
+
+    }
+
+    #perrito{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 15px;
+        display: flex;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+   
+    #contacto{
+        font-size: 20px;
+
+
+    }
+    
+    .reseñas{
+        font-size: 10px;
+        width: 120px;
+        height: 120px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 50vh;
+
+    }
+
+}
+
+
+@media (max-width: 800px){
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+
+    
+    .servicios{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    main{
+        width: 800px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        width: 800px;
+        height: 15vh;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #bloquetitulos{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: -1px;
+
+    }
+
+    #perrito{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 15px;
+        display: flex;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+   
+    #contacto{
+        font-size: 20px;
+
+
+    }
+    
+    .reseñas{
+        font-size: 10px;
+        width: 120px;
+        height: 120px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 50vh;
+
+    }
+
+}
+
+@media (max-width: 744px){
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+
+    
+    .servicios{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    main{
+        width: 744px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        width: 744px;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 744px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        width: 744px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #bloquetitulos{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: -1px;
+
+    }
+
+    #perrito{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 15px;
+        display: flex;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+   
+    #contacto{
+        font-size: 20px;
+
+
+    }
+    
+    .reseñas{
+        font-size: 10px;
+        width: 120px;
+        height: 120px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 50vh;
+
+    }
+
+}
+
+
+
+@media (max-width: 712px){
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+
+    
+    .servicios{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    main{
+        width: 712px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        width: 712px;
+        height: 15vh;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 712px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        width: 712px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #bloquetitulos{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: -1px;
+
+    }
+
+    #perrito{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 15px;
+        display: flex;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+   
+    #contacto{
+        font-size: 20px;
+
+
+    }
+    
+    .reseñas{
+        font-size: 10px;
+        width: 120px;
+        height: 120px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 50vh;
+
+    }
+
+}
+
+@media (max-width: 414px){
+    #cajasservicios{
+        flex-direction: column;
+        width: 70%;
+    
+    }
+
+    
+    .servicios{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    main{
+        width: 414px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        height: 20vh;
+        width: 414px;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 414px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        width: 414px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bloquetitulos{
+        font-size: 7px;
+        margin-top: 20px;
+        margin-right: 4px;
+
+    }
+
+    #perrito{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 10px;
+        display: flex;
+        margin-right: 1.5px;
+        margin-left: 1.5px;
+    }
+
+   
+    #contacto{
+        font-size: 10px;
+
+
+    }
+    
+    .reseñas{
+        font-size: 10px;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 400px;
+
+    }
+    
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 412px) {
+    #cajasservicios{
+        flex-direction: column;
+        width: 70%;
+    
+    }
+
+    
+    .servicios{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    main{
+        width: 412px;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        width: 412px;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 412px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        width: 412px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bloquetitulos{
+        font-size: 7px;
+        margin-top: 20px;
+        margin-right: 4px;
+
+    }
+
+    #perrito{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 10px;
+        display: flex;
+        margin-right: 1.5px;
+        margin-left: 1.5px;
+    }
+
+   
+    #contacto{
+        font-size: 10px;
+
+
+    }
+
+    
+    .reseñas{
+        font-size: 10px;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 400px;
+
+    }
+    
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+
+}
+
+@media (max-width: 402px){
+    #cajasservicios{
+        flex-direction: column;
+        width: 70%;
+    
+    }
+
+    
+    .servicios{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    main{
+        width: 402px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        width: 402px;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 402px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        width: 402px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bloquetitulos{
+        font-size: 7px;
+        margin-top: 20px;
+        margin-left: -1px;
+
+    }
+
+    #perrito{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 10px;
+        display: flex;
+        margin-right: 1.5px;
+        margin-left: 1.5px;
+    }
+
+   
+    #contacto{
+        font-size: 10px;
+
+
+    }
+    
+    .reseñas{
+        font-size: 10px;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 400px;
+
+    }
+    
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+}
+
+
+@media (max-width: 393px){
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+
+    #cajasservicios{
+        flex-direction: column;
+        width: 70%;
+    
+    }
+
+    
+    .servicios{
+        font-size: 28px;
+        text-align: center;
+
+    }
+    main{
+        width: 393px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        width: 393px;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 393px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        width: 393px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bloquetitulos{
+        font-size: 7px;
+        margin-top: 20px;
+        margin-right: 4px;
+
+    }
+
+    #perrito{
+        width: 180px;
+        height: 180px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 10px;
+        display: flex;
+        margin-right: 1.5px;
+        margin-left: 1.5px;
+    }
+
+   
+    #contacto{
+        font-size: 10px;
+
+
+    }
+
+    
+    .reseñas{
+        font-size: 10px;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 400px;
+
+    }
+
+}
+
+@media (max-width: 375px){
+    #cajasservicios{
+        flex-direction: column;
+        width: 70%;
+    
+    }
+
+    
+    .servicios{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    main{
+        width: 375px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    footer{
+        height: 30vh;
+        width: 375px;
+        display: inline-flex;
+    }    
+
+
+    nav{
+        width: 375px;
+        display: flex;
+        justify-content: space-between;
+        height: 2vh;
+    }
+
+    header{
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bloquetitulos{
+        font-size: 7px;
+        margin-top: 20px;
+        margin-left: -1px;
+
+    }
+
+    #perrito{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+
+
+    }
+
+    .nav-link{
+        font-size: 10px;
+        display: flex;
+        margin-right: 1.5px;
+        margin-left: 1.5px;
+    }
+
+   
+    #contacto{
+        font-size: 10px;
+
+
+    }
+    
+    .reseñas{
+        font-size: 10px;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    
+    #grid{
+        grid-gap: 2px;
+    }
+
+    
+    #maingrid{
+        height: 400px;
+
+    }
+    
+    #tabla{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    
+    }
+
+    #tabla input[type="text"],
+    #tabla input[type="email"],
+    #tabla textarea {
+        width: 100% !important; 
+        box-sizing: border-box;
+    }
+}
+
